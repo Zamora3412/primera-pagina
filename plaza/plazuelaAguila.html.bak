@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Plazuela del Águila</title>
+	<link rel="stylesheet" href="flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+    	touch: true,
+    	pauseOnAction: false,
+    	pauseOnHover: false,
+    });
+  });
+</script>
+</head>
+<body>
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<img src="imagenes/pla1.jpg" alt="">
+				<section class="flex-caption">
+					<p>Plazuela del Águila</p>
+				</section>
+			</li>
+			<li>
+				<img src="imagenes/pla2.jpg" alt=>
+				<section class="flex-caption">
+					<p>Plazuela del Águila</p>
+				</section>
+			</li>
+			<li>
+				<img src="imagenes/pla3.jpg" alt="">
+				<section class="flex-caption">
+					<p><strong>Plazuela del Águila</strong></p>
+				</section>
+			</li>
+		</ul>
+	</div>
+	<div>
+		<h2><strong><center>Sobre esta plaza</center></strong></h2>
+		<h3><justifyed>El monumento a José María Morelos y Pavón fue inaugurado en el año de 1944, según consta en una fotografía de la época, en una plazuela ubicada en el cruce de la avenida 27 de febrero con la calle Miguel Hidalgo en la colonia Centro de Villahermosa. De acuerdo al arquitecto Víctor Manuel de Dios Orán, la esfinge de autor desconocido consistía en un basamento sencillo, sobre el que se encontraba un busto del héroe de la patria y un águila con las alas extendidas, ambos elaborados con argamasa. Con el paso del tiempo y por ser el águila un elemento llamativo, el imaginario popular la bautizó como Plazuela del Águila, a como la conocemos en la actualidad, señaló el profesionista.</justifyed></h3>
+	</div>
+
+
+	<div>
+		<li>
+			<img src="imagenes/croquispla.jpeg" alt=>
+			<section class="flex-caption">
+			</section>
+		</li>
+	</div>
+
+	<footer class="footer"> 
+        <div class="container">
+                <div class="four columns">
+                    <nav class="menu">
+                        <h2><center><a class="enlace" href="https://goo.gl/maps/9NjGfXSqoYxeMn4w9">Ubicacion</a></center></h2>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
